@@ -7,6 +7,11 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 12f;
+    Rigidbody rb;
+
+    public float normalSpeed = 12f;
+    public float sprintSpeed = 24f;
+
     public float gravity = -19.62f;
     public float jumpHeight = 10f;
 
@@ -17,6 +22,13 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
+    private readonly object moveBy;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
 
 
     void Update()
@@ -35,6 +47,17 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = sprintSpeed;
+        }
+        else
+        {
+            speed = normalSpeed;
+        }
+
+        
 
         controller.Move(move * speed * Time.deltaTime);
 
