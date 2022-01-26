@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/mm.unity
     guid: c0b27dfb021bc854499e74664be41c3a
   - enabled: 1
-    path: Assets/Scenes/Potal Hub Area.unity
+    path: Assets/Scenes/Level 1 Bank.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
