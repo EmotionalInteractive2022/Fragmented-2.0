@@ -9,7 +9,7 @@ LightmapParameters:
   m_Name: Interior_Setup
   serializedVersion: 3
   resolution: 1
-  clusterResolution: 0.319
+  clusterResolution: 0.56
   irradianceBudget: 467
   irradianceQuality: 8192
   backFaceTolerance: 0.9
