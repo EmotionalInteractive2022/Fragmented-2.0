@@ -5,10 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/mm.unity
     guid: c0b27dfb021bc854499e74664be41c3a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Level 1 Bank.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: facee9f0be4bde74eb6a986593f3a490
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Maze.unity
+    guid: faff2ec95a4a19b47acc1ac61f5796ec
+  - enabled: 1
+    path: Assets/Scenes/Potal Hub Area 1.unity
+    guid: 3c133d27126bdf04b9649c38c1e0dd86
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Space.unity
+    guid: cfed685841482eb49a8b60dcc88304e2
   m_configObjects: {}
