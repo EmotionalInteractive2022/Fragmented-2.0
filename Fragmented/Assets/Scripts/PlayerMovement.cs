@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 12f;
-    Rigidbody rb;
 
     public float normalSpeed = 12f;
     public float sprintSpeed = 24f;
@@ -24,12 +23,11 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded;
     private readonly object moveBy;
 
-   // AudioSource myAudioSource;
+   public AudioSource myAudioSource;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-       // myAudioSource = GetComponent<AudioSource>();
+        myAudioSource = GetComponent<AudioSource>();
     }
 
 
@@ -60,12 +58,15 @@ public class PlayerMovement : MonoBehaviour
             speed = normalSpeed;
         }
 
-       // if((rb.velocity.magnitude > 1.0f) && (myAudioSource.isPlaying == false))
-      //  {
-      //      myAudioSource.volume = Random.Range(0.8f, 1.0f);
-      //      myAudioSource.pitch = Random.Range(0.8f, 1.1f);
-     //       myAudioSource.Play();
-      //  }
+        Debug.Log(myAudioSource.isPlaying);
+
+        if ((myAudioSource.isPlaying == false) && (Mathf.Abs(x) > 0.0f || Mathf.Abs(z) > 0.0f))
+        {
+            
+          myAudioSource.volume = Random.Range(0.8f, 1.0f);
+          myAudioSource.pitch = Random.Range(0.8f, 1.1f);
+          myAudioSource.Play();
+        }
         controller.Move(move * speed * Time.deltaTime);
 
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
