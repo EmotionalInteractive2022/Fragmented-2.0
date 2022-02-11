@@ -6,5 +6,5 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     [SerializeField]
-    private string mextSceneName;
+    private string nextSceneName;
 }
