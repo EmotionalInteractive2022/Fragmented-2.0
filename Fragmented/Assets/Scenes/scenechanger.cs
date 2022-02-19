@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class scenechanger : MonoBehaviour
 {
-    public void onCollisionEnter(Collision collision)
+    public void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }
