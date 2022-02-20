@@ -5,15 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: e166b78e00248cf4aa81f8c96cabc13d
+    guid: 69d56f8af443d7d428a83c4d802ad2b3
   - enabled: 1
     path: Assets/Scenes/Potal Hub Area 1.unity
     guid: 3c133d27126bdf04b9649c38c1e0dd86
   - enabled: 1
     path: Assets/Scenes/Level 1 Bank.unity
     guid: 24b064e9c97e407458519d71cea5038b
+  - enabled: 1
+    path: Assets/Scenes/Potal HA 2.unity
+    guid: 82780d802578ef048b190cd38cba5876
   - enabled: 1
     path: Assets/Scenes/Level 2 Maze.unity
     guid: faff2ec95a4a19b47acc1ac61f5796ec

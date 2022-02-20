@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SC2 : MonoBehaviour
+public class SCMZ : MonoBehaviour
 {
     public void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(4);
     }
 }
