@@ -202,6 +202,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -234,6 +235,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 21.48323}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1412437937}
   m_RootOrder: 0
@@ -277,9 +279,9 @@ MonoBehaviour:
     by something we dont even know exists\nI beg you give me an answer \n\nWho are
     you Player 1 ?\nAre you the universe, or our God, or are we not able to comprehend
     it ?\nTHIS IS ALL YOUR FAULT.\nOUR WILLS ARE IN YOUR HANDS\nGOD... \n\n\n\n\n\n\nDeveloped
-    By: Asian Persuasuion\nLead Programmer: Humza Mustafa\nLead Visual Designer:
-    Clarence Veras\nVisulal Designer: Tin Hyun\nSound Designer: Humza Mustafa\nMusic
-    Designer: Tin Hyun\nConcept Artist: Clarence Veras \nSpecial Thanks: Curtis\n                          
+    By: AME Games \nLead Programmer: Humza Mustafa\nLead Visual Designer: Clarence
+    Veras\nVisulal Designer: Tin Hyun\nSound Designer: Humza Mustafa\nMusic Designer:
+    Tin Hyun\nConcept Artist: Clarence Veras \nSpecial Thanks: Curtis\n                          
     Greg\n                            Brit\n                            Nathan(not
     really)\n                            Dan\n                            Fiona\n                           
     Enrikas\n                            Caner\nPoem Inspiration: Does It Exist ?\n                            
@@ -387,6 +389,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 135.4321, y: -263.31757, z: -21.48323}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1101235664}
   m_Father: {fileID: 1996288455}
@@ -394,7 +397,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1412437938
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -407,6 +410,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -439,6 +443,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1996288455}
   m_RootOrder: 0
@@ -572,6 +577,7 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -638,6 +644,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -733,6 +740,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1730067493}
   - {fileID: 1412437937}
